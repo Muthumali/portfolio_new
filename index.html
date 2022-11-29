@@ -1,10 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Muthu_Dilrukshi</title>
+    <link href="assets/style/normalize.css" rel="stylesheet">
+    <link href="assets/style/styleCss.css" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+<style>
+    body{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+    }
+    /*start header CSS Style*/
+    header {
+        position: fixed;
+        width: 100%;
+        height: 10vh;
+        background-color: #000000;
+        /*box-shadow: inset 0px -2px 4px 0px #d9b7b7;*/
+        z-index: 100;
+    }
+    header > ul {
+        position: absolute;
+        right: 30px;
+        margin-top: 14px;
+        font-size: 24px;
+        font-family: Gidugu;
+        list-style: none;
+        color:white;
+    }
+    header > ul > li {
+        padding: 0 10px 0 10px;
+        display: inline-block;
+    }
+    header > ul > li:hover {
+        cursor: pointer;
+        color: #e8497b;
+    }
+    header > ul > li>a {
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+    }
+    header>ul>li>a:hover{
+        cursor: pointer;
+        color: #e8497b;
+    }
+    /*End Header Style*/
+    /*page 1 style*/
 
+    #page1{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+    }
+    #page1>section>p{
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        font-size: 40px;
+        color: #e8497b;
+        font-weight: bold;
+    }
+    #page1>div{
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        right: 0;
+        bottom: 0;
+    }
+</style>
 </head>
 <body>
-
+<header>
+    <ul>
+        <li><a href="#page1">Home</a></li>
+        <li><a href="#page2">Education</a></li>
+        <li><a href="#page3">Activities</a></li>
+        <li><a href="#page4">Skills</a></li>
+        <li><a href="#page5">projects</a></li>
+        <li><a href="#page6">Assignment</a></li>
+        <li><a href="#footerPage">About Me</a></li>
+    </ul>
+</header>
+<main>
+    <section id="page1">
+        <!--<div><img src="assets/image/myPhoto.png"></div>-->
+        <section>
+            <p>Hello<br>I'm Muthu</p>
+        </section>
+    </section>
+    <section id="page2"></section>
+    <section id="page3"></section>
+    <section id="page4"></section>
+    <section id="page5"></section>
+    <section id="page6"></section>
+    <section id="footerPage"></section>
+</main>
 </body>
 
 </html>
